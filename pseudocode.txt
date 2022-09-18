@@ -21,3 +21,9 @@ IF add_product
 ELSE
     DISPLAY product result
 END IF
+
+IF add_more_product
+    DISPLAY product result
+ELSE
+    DISPLAY total_product in "cart"
+END IF
