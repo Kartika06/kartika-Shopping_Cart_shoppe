@@ -1,0 +1,11 @@
+PROGRAM SHOPPING_CART_SHOPEE
+
+STORE cart AS STRING WITH ENUM
+
+READ AND WRITE "product_name" with STRING
+
+IF product_found
+    DISPLAY product result
+ELSE
+    READ AND WRITE "product_name" with STRING
+END IF
