@@ -9,3 +9,15 @@ IF product_found
 ELSE
     READ AND WRITE "product_name" with STRING
 END IF
+
+IF research_product
+    READ AND WRITE "product_name" with STRING
+ELSE
+    DISPLAY product
+END IF
+
+IF add_product
+    STORE "cart" with product_name
+ELSE
+    DISPLAY product result
+END IF
